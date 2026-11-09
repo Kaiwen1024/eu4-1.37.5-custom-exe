@@ -1,0 +1,39 @@
+{
+  "game": "Europa Universalis IV",
+  "gameVersion": "1.37.5.0",
+  "codename": "Inca",
+  "platform": "Windows x64",
+  "buildDate": "2026-11-09",
+  "file": "eu4.exe",
+  "sizeBytes": 39422464,
+  "sha256": "80A38EF0B4645F03DA1E789395723F77D7BCD67F294029FA70E385F4251FDDAD",
+  "originalExecutableSha256": "9AD3EFE1AF169F40EE577F9DAE5DEBBC87AF6FB8B5450FB345EBF110DC4D771A",
+  "features": {
+    "mingRemoteDiplomaticTributaries": {
+      "initiatingCountryTag": "MNG",
+      "otherDiplomaticEligibilityConditionsPreserved": true
+    },
+    "moddedAchievementChecksumFlag": true,
+    "siegeTacticsDifferenceCoefficient": {
+      "original": 250,
+      "patched": 500
+    },
+    "ironmanConsole": {
+      "multiplayerRestrictionsPreserved": true
+    },
+    "confucianHolySitePanel": {
+      "companionModRequired": true,
+      "religionPageCrashCallFixed": true,
+      "otherReligionOffsetsPreserved": true
+    },
+    "asn1Ia5StringMapping": 16,
+    "gameSpeedChange": false,
+    "multithreadingChange": false
+  },
+  "verification": {
+    "staticChecksPassed": true,
+    "nativePositionMachineCodeCases": 34,
+    "previousCrashingAdapterRejected": true,
+    "gameRuntimeConfirmed": false
+  }
+}

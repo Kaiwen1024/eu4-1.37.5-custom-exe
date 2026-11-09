@@ -1,0 +1,39 @@
+Improves the ordinary Force Tributary casus belli and adds expanded tributary interactions for Ming.
+
+[Supported Version]
+EU4 1.37.5.
+
+[Force Tributary CB Improvements]
+Removes the requirement to share a border with the target.
+Demanding provinces no longer requires also selecting Force Tributary in the peace deal.
+Aggressive expansion multiplier: 0.15.
+Prestige multiplier: 5.
+War score cost multiplier: 0.2.
+
+Expands peace terms to include religious conversion, transfer of trade power, steer trade, a lump-sum monetary payment, revocation of cores, cancellation of subject relationships, release of nations, return of cores, formation of a personal union, and forced vassalization.
+
+[Ming's Expanded Tributary Interactions]
+Available only to tributaries whose overlord is Ming (MNG). Adds interactions including Send Officers, Subsidize Armies, manpower reinforcement, Placate Local Rulers, Enforce Religion, Grant Province, Conscript General, Enforce Culture, Support Loyalists, Place Relative on Throne, Return Land, Divert Trade, and Embargo Rivals.
+
+[Dependencies and Load Order]
+Requires the Mandate mod.
+Load order: Mandate -> this mod -> EU4 Custom Changes Chinese Localization (EU4 自定义修改汉化).
+
+[Notes]
+The CB improvements apply to eligible Emperors of China that possess the ordinary version of this CB. The additional tributary interactions are exclusive to Ming.
+Peace terms and subject interactions remain subject to the game's existing eligibility conditions.
+Establishing remote tributaries through diplomacy requires the companion executable patch. Subscribing to the script mod does not automatically replace the game executable.
+
+[Companion Executable Download and Installation]
+Public GitHub repository:
+https://github.com/Kaiwen1024/eu4-1.37.5-custom-exe
+
+Direct eu4.exe download:
+https://raw.githubusercontent.com/Kaiwen1024/eu4-1.37.5-custom-exe/main/eu4.exe
+
+Close the game, back up the existing eu4.exe outside the game installation folder, then copy the downloaded eu4.exe into that folder to replace it.
+For EU4 1.37.5.0 on Windows x64 only. Game updates or Steam file-integrity verification may require reinstalling the companion executable.
+
+This is a combined executable build. It also includes Ming-only remote diplomatic tributaries, a modded-achievement eligibility adjustment, a siege tactics-difference coefficient adjustment, the Ironman console, and Confucian holy-site side-panel support.
+The ASN.1 mapping retains its original value of 16. These features do not have individual switches; other diplomatic and achievement requirements still apply.
+The Confucian panel requires its companion Confucian mod. The repaired build has passed static and isolated tests and is awaiting in-game confirmation.
